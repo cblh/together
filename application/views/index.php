@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Bootstrap 3, from LayoutIt!</title>
+  <title>Super Coder</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
   <meta name="author" content="">
@@ -199,7 +199,7 @@ $("#sign_up_form").validate({
 					Super Coder
 				</h1>
 				<p>
-					Super Coder 是一款支持语法高亮和自动补全的在线代码编辑器。基于CodeIgniter和Bootstrap框架，用于教学和编程实践。
+					Super Coder 是一款支持语法高亮和代码自动补全的在线代码编辑器。基于CodeIgniter/Bootstrap框架，用于教学和编程实践。
 				</p>
 				<p>
 					<a class="btn btn-primary btn-large" href="#">Learn more</a>

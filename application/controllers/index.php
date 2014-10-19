@@ -16,7 +16,7 @@ class Index extends CI_Controller {
 	{
         if(($this->session->userdata('username'))){
             //echo '未登录';/*把引导放这里*/
-            $this->load->view('succeed');   
+            $this->load->view('welcome');   
         } 
         else {
 		if(isset($_POST['sign_in'])) {
@@ -48,8 +48,7 @@ class Index extends CI_Controller {
                 if ($flag == 1) {
                     //$this->set_session();
                     $this->session->set_userdata(array('username' => $data['username']));
-                    $status['status'] = "Succeed";
-                    $this->load->view("status",$status);
+                    $this->load->view("welcome");
                     
                 }
                 else {
@@ -83,7 +82,7 @@ class Index extends CI_Controller {
                     //$this->set_session();
                     $this->session->set_userdata(array('username' => $data['username']));
                     $status['status'] = "Succeed";
-                    $this->load->view("status",$status);
+                    $this->load->view("welcome");
                 }
             }
 
